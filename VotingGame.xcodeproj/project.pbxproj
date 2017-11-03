@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2508B9EA1CC3DF6A00B4416C /* OutComeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2508B9E91CC3DF6A00B4416C /* OutComeViewController.m */; };
+		2508BA271CC6906E00B4416C /* Record+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2508BA1C1CC6906E00B4416C /* Record+CoreDataProperties.m */; };
+		2508BA281CC6906E00B4416C /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 2508BA1E1CC6906E00B4416C /* Record.m */; };
+		2508BA291CC6906E00B4416C /* Voter+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2508BA201CC6906E00B4416C /* Voter+CoreDataProperties.m */; };
+		2508BA2A1CC6906E00B4416C /* Voter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2508BA221CC6906E00B4416C /* Voter.m */; };
+		2508BA2B1CC6906E00B4416C /* Applicant+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2508BA241CC6906E00B4416C /* Applicant+CoreDataProperties.m */; };
+		2508BA2C1CC6906E00B4416C /* Applicant.m in Sources */ = {isa = PBXBuildFile; fileRef = 2508BA261CC6906E00B4416C /* Applicant.m */; };
+		2508BA2F1CC6BD6100B4416C /* Model2OutcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2508BA2E1CC6BD6100B4416C /* Model2OutcomeViewController.m */; };
+		2508BA371CC7D97B00B4416C /* logolaunch.png in Resources */ = {isa = PBXBuildFile; fileRef = 2508BA361CC7D97B00B4416C /* logolaunch.png */; };
+		2508BA3A1CCD4E6800B4416C /* ManipulationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2508BA391CCD4E6800B4416C /* ManipulationViewController.m */; };
+		2508BA3C1CCF998800B4416C /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = 2508BA3B1CCF998800B4416C /* Title.png */; };
+		2539DC5B1CC2AE0D0064A628 /* LoadGameTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2539DC5A1CC2AE0D0064A628 /* LoadGameTableViewController.m */; };
+		2590D0471CBA59020017C4E5 /* BordaCountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590D0461CBA59020017C4E5 /* BordaCountViewController.m */; };
+		2590D0621CBEF4260017C4E5 /* AgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590D0611CBEF4260017C4E5 /* AgendaViewController.m */; };
+		2590D0701CC040450017C4E5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590D06F1CC040450017C4E5 /* RootViewController.m */; };
+		25B786151CE3B8C9005C0BDC /* 13-target.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B786111CE3B8C9005C0BDC /* 13-target.png */; };
+		25B786161CE3B8C9005C0BDC /* 14-tag.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B786121CE3B8C9005C0BDC /* 14-tag.png */; };
+		25B786171CE3B8C9005C0BDC /* 16-line-chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B786131CE3B8C9005C0BDC /* 16-line-chart.png */; };
+		25B786181CE3B8C9005C0BDC /* 44-shoebox.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B786141CE3B8C9005C0BDC /* 44-shoebox.png */; };
+		25E3EEE71CA6D10700AF2A0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E3EEE61CA6D10700AF2A0C /* main.m */; };
+		25E3EEEA1CA6D10700AF2A0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E3EEE91CA6D10700AF2A0C /* AppDelegate.m */; };
+		25E3EEF01CA6D10700AF2A0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E3EEEE1CA6D10700AF2A0C /* Main.storyboard */; };
+		25E3EEF31CA6D10700AF2A0C /* VotingGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25E3EEF11CA6D10700AF2A0C /* VotingGame.xcdatamodeld */; };
+		25E3EEF51CA6D10700AF2A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E3EEF41CA6D10700AF2A0C /* Assets.xcassets */; };
+		25E3EEF81CA6D10700AF2A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E3EEF61CA6D10700AF2A0C /* LaunchScreen.storyboard */; };
+		25E3EF031CA6D10700AF2A0C /* VotingGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E3EF021CA6D10700AF2A0C /* VotingGameTests.m */; };
+		25E3EF0E1CA6D10700AF2A0C /* VotingGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E3EF0D1CA6D10700AF2A0C /* VotingGameUITests.m */; };
+		25E3EF1C1CA6D14300AF2A0C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E3EF1B1CA6D14300AF2A0C /* CoreData.framework */; };
+		25E3EF1F1CA6D19A00AF2A0C /* VoterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E3EF1E1CA6D19A00AF2A0C /* VoterTableViewController.m */; };
+		25E3EF221CA6D1AF00AF2A0C /* ApplicantTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E3EF211CA6D1AF00AF2A0C /* ApplicantTableViewController.m */; };
+		25E3EF251CA6D1C900AF2A0C /* AddVoterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E3EF241CA6D1C900AF2A0C /* AddVoterViewController.m */; };
+		25E3EF281CA6D1D700AF2A0C /* AddApplicantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E3EF271CA6D1D700AF2A0C /* AddApplicantViewController.m */; };
+		25E3EF2B1CA974DA00AF2A0C /* pickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E3EF2A1CA974DA00AF2A0C /* pickerViewController.m */; };
+		25E3EF321CAC1F2D00AF2A0C /* CountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E3EF311CAC1F2D00AF2A0C /* CountViewController.m */; };
+		25E3EF3B1CB3F9DB00AF2A0C /* Model2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E3EF391CB3F9DB00AF2A0C /* Model2ViewController.m */; };
+		25E3EF3F1CB3FA2200AF2A0C /* MajorityGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E3EF3E1CB3FA2200AF2A0C /* MajorityGraphView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25E3EEFF1CA6D10700AF2A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25E3EEDA1CA6D10700AF2A0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25E3EEE11CA6D10700AF2A0C;
+			remoteInfo = VotingGame;
+		};
+		25E3EF0A1CA6D10700AF2A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25E3EEDA1CA6D10700AF2A0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25E3EEE11CA6D10700AF2A0C;
+			remoteInfo = VotingGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2508B9E81CC3DF6A00B4416C /* OutComeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutComeViewController.h; sourceTree = "<group>"; };
+		2508B9E91CC3DF6A00B4416C /* OutComeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutComeViewController.m; sourceTree = "<group>"; };
+		2508BA1B1CC6906E00B4416C /* Record+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Record+CoreDataProperties.h"; path = "../Record+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2508BA1C1CC6906E00B4416C /* Record+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Record+CoreDataProperties.m"; path = "../Record+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2508BA1D1CC6906E00B4416C /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Record.h; path = ../Record.h; sourceTree = "<group>"; };
+		2508BA1E1CC6906E00B4416C /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Record.m; path = ../Record.m; sourceTree = "<group>"; };
+		2508BA1F1CC6906E00B4416C /* Voter+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Voter+CoreDataProperties.h"; path = "../Voter+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2508BA201CC6906E00B4416C /* Voter+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Voter+CoreDataProperties.m"; path = "../Voter+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2508BA211CC6906E00B4416C /* Voter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Voter.h; path = ../Voter.h; sourceTree = "<group>"; };
+		2508BA221CC6906E00B4416C /* Voter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Voter.m; path = ../Voter.m; sourceTree = "<group>"; };
+		2508BA231CC6906E00B4416C /* Applicant+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Applicant+CoreDataProperties.h"; path = "../Applicant+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2508BA241CC6906E00B4416C /* Applicant+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Applicant+CoreDataProperties.m"; path = "../Applicant+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2508BA251CC6906E00B4416C /* Applicant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Applicant.h; path = ../Applicant.h; sourceTree = "<group>"; };
+		2508BA261CC6906E00B4416C /* Applicant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Applicant.m; path = ../Applicant.m; sourceTree = "<group>"; };
+		2508BA2D1CC6BD6100B4416C /* Model2OutcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model2OutcomeViewController.h; sourceTree = "<group>"; };
+		2508BA2E1CC6BD6100B4416C /* Model2OutcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model2OutcomeViewController.m; sourceTree = "<group>"; };
+		2508BA361CC7D97B00B4416C /* logolaunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logolaunch.png; path = Assets.xcassets/logolaunch.png; sourceTree = "<group>"; };
+		2508BA381CCD4E6800B4416C /* ManipulationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManipulationViewController.h; sourceTree = "<group>"; };
+		2508BA391CCD4E6800B4416C /* ManipulationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManipulationViewController.m; sourceTree = "<group>"; };
+		2508BA3B1CCF998800B4416C /* Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Title.png; path = Assets.xcassets/Title.png; sourceTree = "<group>"; };
+		2539DC591CC2AE0D0064A628 /* LoadGameTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadGameTableViewController.h; sourceTree = "<group>"; };
+		2539DC5A1CC2AE0D0064A628 /* LoadGameTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadGameTableViewController.m; sourceTree = "<group>"; };
+		2590D0451CBA59020017C4E5 /* BordaCountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BordaCountViewController.h; sourceTree = "<group>"; };
+		2590D0461CBA59020017C4E5 /* BordaCountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BordaCountViewController.m; sourceTree = "<group>"; };
+		2590D0601CBEF4260017C4E5 /* AgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaViewController.h; sourceTree = "<group>"; };
+		2590D0611CBEF4260017C4E5 /* AgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaViewController.m; sourceTree = "<group>"; };
+		2590D06E1CC040450017C4E5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2590D06F1CC040450017C4E5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		25B786111CE3B8C9005C0BDC /* 13-target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "13-target.png"; path = "Assets.xcassets/13-target.png"; sourceTree = "<group>"; };
+		25B786121CE3B8C9005C0BDC /* 14-tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "14-tag.png"; path = "Assets.xcassets/14-tag.png"; sourceTree = "<group>"; };
+		25B786131CE3B8C9005C0BDC /* 16-line-chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "16-line-chart.png"; path = "Assets.xcassets/16-line-chart.png"; sourceTree = "<group>"; };
+		25B786141CE3B8C9005C0BDC /* 44-shoebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "44-shoebox.png"; path = "Assets.xcassets/44-shoebox.png"; sourceTree = "<group>"; };
+		25E3EEE21CA6D10700AF2A0C /* VotingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VotingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E3EEE61CA6D10700AF2A0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25E3EEE81CA6D10700AF2A0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25E3EEE91CA6D10700AF2A0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25E3EEEF1CA6D10700AF2A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25E3EEF21CA6D10700AF2A0C /* VotingGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VotingGame.xcdatamodel; sourceTree = "<group>"; };
+		25E3EEF41CA6D10700AF2A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25E3EEF71CA6D10700AF2A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25E3EEF91CA6D10700AF2A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25E3EEFE1CA6D10700AF2A0C /* VotingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VotingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E3EF021CA6D10700AF2A0C /* VotingGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VotingGameTests.m; sourceTree = "<group>"; };
+		25E3EF041CA6D10700AF2A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25E3EF091CA6D10700AF2A0C /* VotingGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VotingGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E3EF0D1CA6D10700AF2A0C /* VotingGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VotingGameUITests.m; sourceTree = "<group>"; };
+		25E3EF0F1CA6D10700AF2A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25E3EF1B1CA6D14300AF2A0C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		25E3EF1D1CA6D19A00AF2A0C /* VoterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoterTableViewController.h; sourceTree = "<group>"; };
+		25E3EF1E1CA6D19A00AF2A0C /* VoterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoterTableViewController.m; sourceTree = "<group>"; };
+		25E3EF201CA6D1AF00AF2A0C /* ApplicantTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicantTableViewController.h; sourceTree = "<group>"; };
+		25E3EF211CA6D1AF00AF2A0C /* ApplicantTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicantTableViewController.m; sourceTree = "<group>"; };
+		25E3EF231CA6D1C900AF2A0C /* AddVoterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddVoterViewController.h; sourceTree = "<group>"; };
+		25E3EF241CA6D1C900AF2A0C /* AddVoterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddVoterViewController.m; sourceTree = "<group>"; };
+		25E3EF261CA6D1D700AF2A0C /* AddApplicantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddApplicantViewController.h; sourceTree = "<group>"; };
+		25E3EF271CA6D1D700AF2A0C /* AddApplicantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddApplicantViewController.m; sourceTree = "<group>"; };
+		25E3EF291CA974DA00AF2A0C /* pickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pickerViewController.h; sourceTree = "<group>"; };
+		25E3EF2A1CA974DA00AF2A0C /* pickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pickerViewController.m; sourceTree = "<group>"; };
+		25E3EF301CAC1F2D00AF2A0C /* CountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountViewController.h; sourceTree = "<group>"; };
+		25E3EF311CAC1F2D00AF2A0C /* CountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountViewController.m; sourceTree = "<group>"; };
+		25E3EF381CB3F9DB00AF2A0C /* Model2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model2ViewController.h; sourceTree = "<group>"; };
+		25E3EF391CB3F9DB00AF2A0C /* Model2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model2ViewController.m; sourceTree = "<group>"; };
+		25E3EF3D1CB3FA2200AF2A0C /* MajorityGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MajorityGraphView.h; sourceTree = "<group>"; };
+		25E3EF3E1CB3FA2200AF2A0C /* MajorityGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MajorityGraphView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25E3EEDF1CA6D10700AF2A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E3EF1C1CA6D14300AF2A0C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E3EEFB1CA6D10700AF2A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E3EF061CA6D10700AF2A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2539DC2E1CC262DD0064A628 /* core data */ = {
+			isa = PBXGroup;
+			children = (
+				2508BA1B1CC6906E00B4416C /* Record+CoreDataProperties.h */,
+				2508BA1C1CC6906E00B4416C /* Record+CoreDataProperties.m */,
+				2508BA1D1CC6906E00B4416C /* Record.h */,
+				2508BA1E1CC6906E00B4416C /* Record.m */,
+				2508BA1F1CC6906E00B4416C /* Voter+CoreDataProperties.h */,
+				2508BA201CC6906E00B4416C /* Voter+CoreDataProperties.m */,
+				2508BA211CC6906E00B4416C /* Voter.h */,
+				2508BA221CC6906E00B4416C /* Voter.m */,
+				2508BA231CC6906E00B4416C /* Applicant+CoreDataProperties.h */,
+				2508BA241CC6906E00B4416C /* Applicant+CoreDataProperties.m */,
+				2508BA251CC6906E00B4416C /* Applicant.h */,
+				2508BA261CC6906E00B4416C /* Applicant.m */,
+				25E3EEF11CA6D10700AF2A0C /* VotingGame.xcdatamodeld */,
+			);
+			name = "core data";
+			sourceTree = "<group>";
+		};
+		25E3EED91CA6D10700AF2A0C = {
+			isa = PBXGroup;
+			children = (
+				25E3EF1B1CA6D14300AF2A0C /* CoreData.framework */,
+				25E3EEE41CA6D10700AF2A0C /* VotingGame */,
+				25E3EF011CA6D10700AF2A0C /* VotingGameTests */,
+				25E3EF0C1CA6D10700AF2A0C /* VotingGameUITests */,
+				25E3EEE31CA6D10700AF2A0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25E3EEE31CA6D10700AF2A0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25E3EEE21CA6D10700AF2A0C /* VotingGame.app */,
+				25E3EEFE1CA6D10700AF2A0C /* VotingGameTests.xctest */,
+				25E3EF091CA6D10700AF2A0C /* VotingGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25E3EEE41CA6D10700AF2A0C /* VotingGame */ = {
+			isa = PBXGroup;
+			children = (
+				25B786111CE3B8C9005C0BDC /* 13-target.png */,
+				25B786121CE3B8C9005C0BDC /* 14-tag.png */,
+				25B786131CE3B8C9005C0BDC /* 16-line-chart.png */,
+				25B786141CE3B8C9005C0BDC /* 44-shoebox.png */,
+				2508BA3B1CCF998800B4416C /* Title.png */,
+				2508BA361CC7D97B00B4416C /* logolaunch.png */,
+				2539DC2E1CC262DD0064A628 /* core data */,
+				25E3EEE81CA6D10700AF2A0C /* AppDelegate.h */,
+				25E3EEE91CA6D10700AF2A0C /* AppDelegate.m */,
+				25E3EF2D1CAC1E2800AF2A0C /* Applicant */,
+				25E3EF2C1CAC1E1800AF2A0C /* Voter */,
+				25E3EF2E1CAC1E3F00AF2A0C /* PickPreference */,
+				25E3EEEE1CA6D10700AF2A0C /* Main.storyboard */,
+				25E3EEF41CA6D10700AF2A0C /* Assets.xcassets */,
+				25E3EEF61CA6D10700AF2A0C /* LaunchScreen.storyboard */,
+				25E3EEF91CA6D10700AF2A0C /* Info.plist */,
+				25E3EEE51CA6D10700AF2A0C /* Supporting Files */,
+				25E3EF2F1CAC1F0B00AF2A0C /* Model1 */,
+				25E3EF331CB3F80C00AF2A0C /* Model2 */,
+				25E3EF341CB3F84500AF2A0C /* Model3 */,
+				2590D06E1CC040450017C4E5 /* RootViewController.h */,
+				2590D06F1CC040450017C4E5 /* RootViewController.m */,
+				2539DC591CC2AE0D0064A628 /* LoadGameTableViewController.h */,
+				2539DC5A1CC2AE0D0064A628 /* LoadGameTableViewController.m */,
+			);
+			path = VotingGame;
+			sourceTree = "<group>";
+		};
+		25E3EEE51CA6D10700AF2A0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25E3EEE61CA6D10700AF2A0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25E3EF011CA6D10700AF2A0C /* VotingGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				25E3EF021CA6D10700AF2A0C /* VotingGameTests.m */,
+				25E3EF041CA6D10700AF2A0C /* Info.plist */,
+			);
+			path = VotingGameTests;
+			sourceTree = "<group>";
+		};
+		25E3EF0C1CA6D10700AF2A0C /* VotingGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25E3EF0D1CA6D10700AF2A0C /* VotingGameUITests.m */,
+				25E3EF0F1CA6D10700AF2A0C /* Info.plist */,
+			);
+			path = VotingGameUITests;
+			sourceTree = "<group>";
+		};
+		25E3EF2C1CAC1E1800AF2A0C /* Voter */ = {
+			isa = PBXGroup;
+			children = (
+				25E3EF1D1CA6D19A00AF2A0C /* VoterTableViewController.h */,
+				25E3EF1E1CA6D19A00AF2A0C /* VoterTableViewController.m */,
+				25E3EF231CA6D1C900AF2A0C /* AddVoterViewController.h */,
+				25E3EF241CA6D1C900AF2A0C /* AddVoterViewController.m */,
+			);
+			name = Voter;
+			sourceTree = "<group>";
+		};
+		25E3EF2D1CAC1E2800AF2A0C /* Applicant */ = {
+			isa = PBXGroup;
+			children = (
+				25E3EF201CA6D1AF00AF2A0C /* ApplicantTableViewController.h */,
+				25E3EF211CA6D1AF00AF2A0C /* ApplicantTableViewController.m */,
+				25E3EF261CA6D1D700AF2A0C /* AddApplicantViewController.h */,
+				25E3EF271CA6D1D700AF2A0C /* AddApplicantViewController.m */,
+			);
+			name = Applicant;
+			sourceTree = "<group>";
+		};
+		25E3EF2E1CAC1E3F00AF2A0C /* PickPreference */ = {
+			isa = PBXGroup;
+			children = (
+				25E3EF291CA974DA00AF2A0C /* pickerViewController.h */,
+				25E3EF2A1CA974DA00AF2A0C /* pickerViewController.m */,
+			);
+			name = PickPreference;
+			sourceTree = "<group>";
+		};
+		25E3EF2F1CAC1F0B00AF2A0C /* Model1 */ = {
+			isa = PBXGroup;
+			children = (
+				25E3EF301CAC1F2D00AF2A0C /* CountViewController.h */,
+				25E3EF311CAC1F2D00AF2A0C /* CountViewController.m */,
+				2508B9E81CC3DF6A00B4416C /* OutComeViewController.h */,
+				2508B9E91CC3DF6A00B4416C /* OutComeViewController.m */,
+				2508BA381CCD4E6800B4416C /* ManipulationViewController.h */,
+				2508BA391CCD4E6800B4416C /* ManipulationViewController.m */,
+			);
+			name = Model1;
+			sourceTree = "<group>";
+		};
+		25E3EF331CB3F80C00AF2A0C /* Model2 */ = {
+			isa = PBXGroup;
+			children = (
+				25E3EF381CB3F9DB00AF2A0C /* Model2ViewController.h */,
+				25E3EF391CB3F9DB00AF2A0C /* Model2ViewController.m */,
+				25E3EF3D1CB3FA2200AF2A0C /* MajorityGraphView.h */,
+				25E3EF3E1CB3FA2200AF2A0C /* MajorityGraphView.m */,
+				2590D0601CBEF4260017C4E5 /* AgendaViewController.h */,
+				2590D0611CBEF4260017C4E5 /* AgendaViewController.m */,
+				2508BA2D1CC6BD6100B4416C /* Model2OutcomeViewController.h */,
+				2508BA2E1CC6BD6100B4416C /* Model2OutcomeViewController.m */,
+			);
+			name = Model2;
+			sourceTree = "<group>";
+		};
+		25E3EF341CB3F84500AF2A0C /* Model3 */ = {
+			isa = PBXGroup;
+			children = (
+				2590D0451CBA59020017C4E5 /* BordaCountViewController.h */,
+				2590D0461CBA59020017C4E5 /* BordaCountViewController.m */,
+			);
+			name = Model3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25E3EEE11CA6D10700AF2A0C /* VotingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E3EF121CA6D10700AF2A0C /* Build configuration list for PBXNativeTarget "VotingGame" */;
+			buildPhases = (
+				25E3EEDE1CA6D10700AF2A0C /* Sources */,
+				25E3EEDF1CA6D10700AF2A0C /* Frameworks */,
+				25E3EEE01CA6D10700AF2A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VotingGame;
+			productName = VotingGame;
+			productReference = 25E3EEE21CA6D10700AF2A0C /* VotingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25E3EEFD1CA6D10700AF2A0C /* VotingGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E3EF151CA6D10700AF2A0C /* Build configuration list for PBXNativeTarget "VotingGameTests" */;
+			buildPhases = (
+				25E3EEFA1CA6D10700AF2A0C /* Sources */,
+				25E3EEFB1CA6D10700AF2A0C /* Frameworks */,
+				25E3EEFC1CA6D10700AF2A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25E3EF001CA6D10700AF2A0C /* PBXTargetDependency */,
+			);
+			name = VotingGameTests;
+			productName = VotingGameTests;
+			productReference = 25E3EEFE1CA6D10700AF2A0C /* VotingGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25E3EF081CA6D10700AF2A0C /* VotingGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E3EF181CA6D10700AF2A0C /* Build configuration list for PBXNativeTarget "VotingGameUITests" */;
+			buildPhases = (
+				25E3EF051CA6D10700AF2A0C /* Sources */,
+				25E3EF061CA6D10700AF2A0C /* Frameworks */,
+				25E3EF071CA6D10700AF2A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25E3EF0B1CA6D10700AF2A0C /* PBXTargetDependency */,
+			);
+			name = VotingGameUITests;
+			productName = VotingGameUITests;
+			productReference = 25E3EF091CA6D10700AF2A0C /* VotingGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25E3EEDA1CA6D10700AF2A0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Xian Zhu";
+				TargetAttributes = {
+					25E3EEE11CA6D10700AF2A0C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5H4L77XRDJ;
+					};
+					25E3EEFD1CA6D10700AF2A0C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5H4L77XRDJ;
+						TestTargetID = 25E3EEE11CA6D10700AF2A0C;
+					};
+					25E3EF081CA6D10700AF2A0C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5H4L77XRDJ;
+						TestTargetID = 25E3EEE11CA6D10700AF2A0C;
+					};
+				};
+			};
+			buildConfigurationList = 25E3EEDD1CA6D10700AF2A0C /* Build configuration list for PBXProject "VotingGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25E3EED91CA6D10700AF2A0C;
+			productRefGroup = 25E3EEE31CA6D10700AF2A0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25E3EEE11CA6D10700AF2A0C /* VotingGame */,
+				25E3EEFD1CA6D10700AF2A0C /* VotingGameTests */,
+				25E3EF081CA6D10700AF2A0C /* VotingGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25E3EEE01CA6D10700AF2A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B786181CE3B8C9005C0BDC /* 44-shoebox.png in Resources */,
+				25B786151CE3B8C9005C0BDC /* 13-target.png in Resources */,
+				2508BA371CC7D97B00B4416C /* logolaunch.png in Resources */,
+				25E3EEF81CA6D10700AF2A0C /* LaunchScreen.storyboard in Resources */,
+				25B786161CE3B8C9005C0BDC /* 14-tag.png in Resources */,
+				2508BA3C1CCF998800B4416C /* Title.png in Resources */,
+				25E3EEF51CA6D10700AF2A0C /* Assets.xcassets in Resources */,
+				25E3EEF01CA6D10700AF2A0C /* Main.storyboard in Resources */,
+				25B786171CE3B8C9005C0BDC /* 16-line-chart.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E3EEFC1CA6D10700AF2A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E3EF071CA6D10700AF2A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25E3EEDE1CA6D10700AF2A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2508BA271CC6906E00B4416C /* Record+CoreDataProperties.m in Sources */,
+				25E3EEF31CA6D10700AF2A0C /* VotingGame.xcdatamodeld in Sources */,
+				25E3EF251CA6D1C900AF2A0C /* AddVoterViewController.m in Sources */,
+				2508BA3A1CCD4E6800B4416C /* ManipulationViewController.m in Sources */,
+				2508BA2A1CC6906E00B4416C /* Voter.m in Sources */,
+				2590D0701CC040450017C4E5 /* RootViewController.m in Sources */,
+				25E3EF281CA6D1D700AF2A0C /* AddApplicantViewController.m in Sources */,
+				2508BA2B1CC6906E00B4416C /* Applicant+CoreDataProperties.m in Sources */,
+				25E3EF1F1CA6D19A00AF2A0C /* VoterTableViewController.m in Sources */,
+				2590D0621CBEF4260017C4E5 /* AgendaViewController.m in Sources */,
+				25E3EEEA1CA6D10700AF2A0C /* AppDelegate.m in Sources */,
+				25E3EF3F1CB3FA2200AF2A0C /* MajorityGraphView.m in Sources */,
+				2539DC5B1CC2AE0D0064A628 /* LoadGameTableViewController.m in Sources */,
+				2508B9EA1CC3DF6A00B4416C /* OutComeViewController.m in Sources */,
+				2590D0471CBA59020017C4E5 /* BordaCountViewController.m in Sources */,
+				25E3EF321CAC1F2D00AF2A0C /* CountViewController.m in Sources */,
+				2508BA2C1CC6906E00B4416C /* Applicant.m in Sources */,
+				2508BA281CC6906E00B4416C /* Record.m in Sources */,
+				25E3EF3B1CB3F9DB00AF2A0C /* Model2ViewController.m in Sources */,
+				2508BA291CC6906E00B4416C /* Voter+CoreDataProperties.m in Sources */,
+				25E3EF221CA6D1AF00AF2A0C /* ApplicantTableViewController.m in Sources */,
+				25E3EEE71CA6D10700AF2A0C /* main.m in Sources */,
+				2508BA2F1CC6BD6100B4416C /* Model2OutcomeViewController.m in Sources */,
+				25E3EF2B1CA974DA00AF2A0C /* pickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E3EEFA1CA6D10700AF2A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E3EF031CA6D10700AF2A0C /* VotingGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E3EF051CA6D10700AF2A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E3EF0E1CA6D10700AF2A0C /* VotingGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25E3EF001CA6D10700AF2A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25E3EEE11CA6D10700AF2A0C /* VotingGame */;
+			targetProxy = 25E3EEFF1CA6D10700AF2A0C /* PBXContainerItemProxy */;
+		};
+		25E3EF0B1CA6D10700AF2A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25E3EEE11CA6D10700AF2A0C /* VotingGame */;
+			targetProxy = 25E3EF0A1CA6D10700AF2A0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25E3EEEE1CA6D10700AF2A0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E3EEEF1CA6D10700AF2A0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25E3EEF61CA6D10700AF2A0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E3EEF71CA6D10700AF2A0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25E3EF101CA6D10700AF2A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		25E3EF111CA6D10700AF2A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25E3EF131CA6D10700AF2A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VotingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xian-zhu.VotingGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25E3EF141CA6D10700AF2A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VotingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xian-zhu.VotingGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25E3EF161CA6D10700AF2A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VotingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xian-zhu.VotingGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VotingGame.app/VotingGame";
+			};
+			name = Debug;
+		};
+		25E3EF171CA6D10700AF2A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VotingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xian-zhu.VotingGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VotingGame.app/VotingGame";
+			};
+			name = Release;
+		};
+		25E3EF191CA6D10700AF2A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VotingGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xian-zhu.VotingGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VotingGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		25E3EF1A1CA6D10700AF2A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VotingGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xian-zhu.VotingGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VotingGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E3EEDD1CA6D10700AF2A0C /* Build configuration list for PBXProject "VotingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E3EF101CA6D10700AF2A0C /* Debug */,
+				25E3EF111CA6D10700AF2A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E3EF121CA6D10700AF2A0C /* Build configuration list for PBXNativeTarget "VotingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E3EF131CA6D10700AF2A0C /* Debug */,
+				25E3EF141CA6D10700AF2A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E3EF151CA6D10700AF2A0C /* Build configuration list for PBXNativeTarget "VotingGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E3EF161CA6D10700AF2A0C /* Debug */,
+				25E3EF171CA6D10700AF2A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E3EF181CA6D10700AF2A0C /* Build configuration list for PBXNativeTarget "VotingGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E3EF191CA6D10700AF2A0C /* Debug */,
+				25E3EF1A1CA6D10700AF2A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		25E3EEF11CA6D10700AF2A0C /* VotingGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				25E3EEF21CA6D10700AF2A0C /* VotingGame.xcdatamodel */,
+			);
+			currentVersion = 25E3EEF21CA6D10700AF2A0C /* VotingGame.xcdatamodel */;
+			path = VotingGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 25E3EEDA1CA6D10700AF2A0C /* Project object */;
+}

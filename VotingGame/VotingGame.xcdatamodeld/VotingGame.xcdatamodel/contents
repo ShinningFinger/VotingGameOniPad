@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="Applicant" representedClassName="Applicant" syncable="YES">
+        <attribute name="aname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="recordOfApplicant" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Record" inverseName="applicant" inverseEntity="Record" syncable="YES"/>
+    </entity>
+    <entity name="Record" representedClassName="Record" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="applicant" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Applicant" inverseName="recordOfApplicant" inverseEntity="Applicant" syncable="YES"/>
+        <relationship name="voter" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Voter" inverseName="recordOfVoter" inverseEntity="Voter" syncable="YES"/>
+    </entity>
+    <entity name="Voter" representedClassName="Voter" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="preference" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="recordOfVoter" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Record" inverseName="voter" inverseEntity="Record" syncable="YES"/>
+    </entity>
+    <configuration name="Store">
+        <memberEntity name="Applicant"/>
+        <memberEntity name="Voter"/>
+    </configuration>
+    <elements>
+        <element name="Applicant" positionX="-92" positionY="225" width="128" height="73"/>
+        <element name="Record" positionX="-326" positionY="302" width="128" height="103"/>
+        <element name="Voter" positionX="-90" positionY="396" width="128" height="88"/>
+    </elements>
+</model>
